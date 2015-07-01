@@ -89,8 +89,8 @@
         v = v.replace(/\bcould\snot\sbe\sreached\sfor\scomment\b/gi, "is guilty and everyone knows it");
         v = v.replace(/\bkeyboards\b/g, "leopards");
         v = v.replace(/\bKeyboards\b/g, "Leopards");
-        v = v.replace(/\bkeyboard\b/g, "leopards");
-        v = v.replace(/\bKeyboard\b/g, "Leopards");
+        v = v.replace(/\bkeyboard\b/g, "leopard");
+        v = v.replace(/\bKeyboard\b/g, "Leopard");
     
         textNode.nodeValue = v;
     }
